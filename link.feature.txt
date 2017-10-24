@@ -1,0 +1,8 @@
+Feature: Privacy Policy Link Test
+@javascript
+Scenario: Open Privacy Policy link
+          Given that I am on "https://www.mequilibrium.com/"
+          When I click on "Privacy" 
+          Then I should see "some text" 
+		  And I should see the last "update date"
+		  
