@@ -1,0 +1,10 @@
+default:
+    extensions:
+        Behat\MinkExtension:
+            base_url: 'https://www.mequilibrium.com/'
+            browser_name: chrome
+            sessions:
+                default:
+                  selenium2:
+                    capabilities: 
+                      version: ''
